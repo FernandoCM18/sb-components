@@ -13,6 +13,9 @@ export default {
         },
         fontColor: {
             control: 'color'
+        },
+        backgroundColor: {
+            control: 'color'
         }
 
     }
@@ -48,5 +51,12 @@ export const CustomFontColor = Template.bind({});
 CustomFontColor.args = {
     size: 'h1',
     fontColor: '#5517ac'
+}
+
+export const CustomBackgroundColor = Template.bind({});
+CustomBackgroundColor.args = {
+    size: 'h1',
+    fontColor: '#ffffff',
+    backgroundColor: '#000000'
 }
 
