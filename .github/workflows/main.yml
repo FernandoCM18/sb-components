@@ -25,7 +25,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.17
-      
+
       - name: Install Dependencies
         run: yarn install
 
@@ -33,7 +33,7 @@ jobs:
         run: yarn build
 
       - name: Semantic Release
-        env: 
+        env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
