@@ -15,7 +15,7 @@
     "url": "https://github.com/FernandoCM18/sb-components"
   },
   "release": {
-    "branch": [
+    "branches": [
       "main"
     ]
   },
