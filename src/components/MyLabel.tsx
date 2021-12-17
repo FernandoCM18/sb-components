@@ -16,7 +16,7 @@ export interface MyLabelProps {
     /**
     * Este es el tamaño de la etiqueta.
     */
-    size: 'normal' | 'h1' | 'h1' | 'h3';
+    size: 'normal' | 'h1' | 'h2' | 'h3';
     /**
     * Color personalizado de la fuente
     */
